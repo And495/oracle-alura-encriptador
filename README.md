@@ -5,11 +5,11 @@ Primer trabajo  con HTML – CSS - Javascipt
 
 Se encripta y/o desencripta un mensaje que ingresa el usuario. La clave de encriptación solo afecta a las vocales en minúsculas:
 
-La letra "a" es convertida para "ai"
-La letra "e" es convertida para "enter"
-La letra "i" es convertida para "imes"
-La letra "o" es convertida para "ober"
-La letra "u" es convertida para "ufat"
+La letra "a" es convertida para "ai".
+La letra "e" es convertida para "enter".
+La letra "i" es convertida para "imes".
+La letra "o" es convertida para "ober".
+La letra "u" es convertida para "ufat".
 
 Se permite que el usuario copie el mensaje procesado.
 
