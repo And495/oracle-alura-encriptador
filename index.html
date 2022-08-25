@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="./style.css">
+    <title>ORACLE + ALURA: Encriptador</title>
+	</head>
+
+  <body>
+    <header class="logo">
+      <img src="./images/desktop/alura-oracle.svg" alt="logo de oracle y alura">
+    </header>
+    <main class="container">
+      <section class="user-panel">
+        <textarea class="text-input" cols="40" rows="6" placeholder="Ingrese el texto aquí"></textarea>
+
+        <div class="reminder">
+          <div id="circle"><p>!</p></div>
+          <p>Solo letras minúsculas y sin acentos</p>
+        </div>
+
+        <div class="input-buttons">
+          <button class="encrypt">encriptar</button> 
+          <button class="decrypt">desencriptar</button> 
+          <!-- Not yet. Make a paste button -->
+          <!-- <button class="paste">pegar</button> -->
+        </div>
+      </section>
+      
+      <section class="d-encrypt-text">
+        <div id="hide-presentation">
+          <h2 class="presentation">Ningún mensaje fue encontrado</h2>
+          <p class="presentation">Ingresa el texto que desees encriptar o desencriptar</p>
+        </div> 
+
+        <div id="show-outputs">
+          <textarea class="text-output" cols="18" rows="8"></textarea>
+          <button class="copy" >copiar</button>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy 2022 
+        <a href="https://www.oracle.com/ar/education/oracle-next-education/">ORACLE</a>
+        <a href="https://www.aluracursos.com/">Alura</a> 
+        <a href="">A.E.G.</a>
+      </p>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
